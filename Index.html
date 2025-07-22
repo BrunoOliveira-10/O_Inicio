@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="portfolio.png" type="image/x-icon">
   <meta name="description" content="Portfólio de Bruno, desenvolvedor front-end focado em JavaScript e React.">
   <title>Bruno Oliveira | Desenvolvedor Web</title>
-  <link rel="stylesheet" href="/assets/Css/Style.css" />
+  <link rel="stylesheet" href="src/Css/normalize.css">
+  <link rel="stylesheet" href="src/Css/Style.css" />
+</head>
   
 <body>
   <header>
@@ -18,42 +21,43 @@
       </ul>
     </nav>
   </header>
-
   <main>
-
-    
-              
-    
-
     <section id="apresentacao">
       <h2>Olá, sou o Bruno 👋</h2>
-      <p>Desenvolvedor Web focado em JavaScript, React e criação de interfaces modernas.</p>
+      <p>Desenvolvedor Web focado em JavaScript<!--, React e criação de interfaces modernas.--></p>
       <a href="#contato" class="botao">Fale comigo</a>
     </section>
-
     <section id="projetos">
       <h2>Projetos</h2>
-
       <article class="projeto">
-        <img src="img/projeto1.jpg" alt="Print do projeto Todo List">
         <div>
-          <h3>Todo List</h3>
-          <p>Uma aplicação para organização de tarefas usando React e LocalStorage.</p>
-          <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript, React</p>
-          <a href="https://github.com/BrunoOliveira-10/todo-list" target="_blank">Ver no GitHub</a>
+          <p>Uma aplicação para organização de tarefas usando JavaScript</p>
+          <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+          <a href="https://github.com/BrunoOliveira-10/#" target="_blank">Ver no GitHub</a>
         </div>
       </article>
 
     </section>
-
     <section id="sobre">
       <h2>Sobre mim</h2>
       <p>Sou apaixonado por tecnologia e desenvolvimento web. Estou sempre aprendendo e buscando evoluir como programador.</p>
     </section>
-
     <section id="contato">
       <h2>Contato</h2>
-      <form action="https://formsubmit.co/SEUEMAIL" method="POST">
+      <div id="minhas-redes-sociais" >
+        <div name="GitHub" id="logo-github"data-theme="light">
+          <a href="https://github.com/BrunoOliveira-10" target="_blank">
+            <img id="img-github" src="assets/img/github.png" alt="GitHub">
+          </a>
+        </div>
+        <div name="Linkedin" id="logo-linkedin">
+          <a href="https://www.linkedin.com/in/bruno-o-1a926b376/" target="_blank" >
+            <img src="assets/img/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
+
+      <form action="https://formsubmit.co/Bruno462silvaoliveira@gmail.com" method="POST">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required />
 
@@ -62,7 +66,6 @@
 
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" required></textarea>
-
         <button type="submit">Enviar</button>
       </form>
 
@@ -72,10 +75,7 @@
 
   <footer>
     <p>&copy; 2025 Bruno Oliveira. Todos os direitos reservados.</p>
-    <p>
-      <a href="https://github.com/BrunoOliveira-10">GitHub</a>
-      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-      <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="bruno-o-1a926b376" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/bruno-o-1a926b376?trk=profile-badge"></a></div>
+    <br>
     </p>
   </footer>
   <script src="src/Js/main.js"></script>
