@@ -1,5 +1,7 @@
 # Bem-vindo ao meu repositório!
 
+[Meu Portifolio](https://brunooliveira-10.github.io/O_Inicio/index.html)
+
 Este projeto marca o início da minha jornada no desenvolvimento de software. Aqui você encontrará meus primeiros passos, aprendizados e evoluções ao longo do tempo.
 
 
@@ -15,4 +17,4 @@ Vamos juntos nessa jornada de conhecimento e inovação!
 
 ---
 
-[link](https://brunooliveira-10.github.io/O_Inicio/index.html)
+
