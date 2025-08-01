@@ -1,6 +1,6 @@
 # Bem-vindo ao meu repositório!
 
-<a href="https://brunooliveira-10.github.io/O_Inicio/index.html" target="_blank">Meu Portfólio</a>
+<a href="https://brunooliveira-10.github.io/O_Inicio/index.html" target="_blank" rel="noopener noreferrer">Meu Portfólio</a>
 
 Este projeto marca o início da minha jornada no desenvolvimento de software. Aqui você encontrará meus primeiros passos, aprendizados e evoluções ao longo do tempo.
 
